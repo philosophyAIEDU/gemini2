@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PyPDF2
 
 # Gemini API 키 설정
-genai.configure(api_key=st.secrets["AIzaSyD4ltnPGEDXXu1A77oVU54QCgdyXM4NBR4"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 # Gemini 모델 설정
 model = genai.GenerativeModel('gemini-pro')
